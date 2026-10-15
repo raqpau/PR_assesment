@@ -1,0 +1,52 @@
+Program started: 2026-10-15 19:51:10 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+Warning message:
+`geom_errorbarh()` was deprecated in ggplot2 4.0.0.
+ℹ Please use the `orientation` argument of `geom_errorbar()` instead. 
+`height` was translated to `width`.
+# A tibble: 9 × 3
+  ACTARM               AESEV    AE_COUNT
+  <chr>                <chr>       <int>
+1 Placebo              MILD          210
+2 Placebo              MODERATE       65
+3 Placebo              SEVERE          6
+4 Xanomeline High Dose MILD          286
+5 Xanomeline High Dose MODERATE      118
+6 Xanomeline High Dose SEVERE         10
+7 Xanomeline Low Dose  MILD          232
+8 Xanomeline Low Dose  MODERATE      170
+9 Xanomeline Low Dose  SEVERE         25
+# A tibble: 10 × 5
+   AETERM                      N_SUBJ PERCENT LOWER_95CI UPPER_95CI
+   <chr>                        <int>   <dbl>      <dbl>      <dbl>
+ 1 DIARRHOEA                       17    6.69       3.95       10.5
+ 2 SINUS BRADYCARDIA               17    6.69       3.95       10.5
+ 3 APPLICATION SITE DERMATITIS     21    8.27       5.19       12.4
+ 4 APPLICATION SITE IRRITATION     21    8.27       5.19       12.4
+ 5 DIZZINESS                       21    8.27       5.19       12.4
+ 6 RASH                            26   10.2        6.80       14.6
+ 7 APPLICATION SITE ERYTHEMA       30   11.8        8.11       16.4
+ 8 ERYTHEMA                        36   14.2       10.1        19.1
+ 9 APPLICATION SITE PRURITUS       50   19.7       15.0        25.1
+10 PRURITUS                        54   21.3       16.4        26.8
+AE visualizations created successfully
+Output files:
+- ae_severity_distribution.png
+- top10_adverse_events.png

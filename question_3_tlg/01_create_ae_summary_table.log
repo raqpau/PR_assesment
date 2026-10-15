@@ -1,0 +1,16 @@
+Program started: 2026-10-15 19:52:22 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+ADSL records: 306 
+ADAE records: 1191 
+TEAE records: 1122 
+Program completed: 2026-10-15 19:52:25 

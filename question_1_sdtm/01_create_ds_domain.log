@@ -1,0 +1,23 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading input datasets...
+ℹ These terms could not be mapped per the controlled terminology: "Randomized", "Completed", "Study Terminated by Sponsor", "Screen Failure", and "Lost to Follow-Up".
+ℹ These terms could not be mapped per the controlled terminology: "Ambul Ecg Removal", "Unscheduled 6.1", "Unscheduled 1.1", "Unscheduled 5.1", "Unscheduled 4.1", "Unscheduled 8.2", and "Unscheduled 13.1".
+ℹ These terms could not be mapped per the controlled terminology: "Ambul Ecg Removal", "Unscheduled 6.1", "Unscheduled 1.1", "Unscheduled 5.1", "Unscheduled 4.1", "Unscheduled 8.2", and "Unscheduled 13.1".
+
+Final dataset dimensions:
+[1] 850  12
+
+Variable listing:
+ [1] "STUDYID"  "DOMAIN"   "USUBJID"  "DSSEQ"    "DSTERM"   "DSDECOD" 
+ [7] "DSCAT"    "VISITNUM" "VISIT"    "DSDTC"    "DSSTDTC"  "DSSTDY"  
+Run completed: 2026-10-15 19:34:28.02263 
